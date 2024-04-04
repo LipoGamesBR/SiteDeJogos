@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(74, 228, 255);
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    box-shadow: 10px;
+}
+
+input{
+    border-radius: 15px;
+    width: 75%;
+    height: 8%;
+}
+
+button{
+    border-radius: 15px;
+    width: 200px;
+}
+
+.Select{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Select input{
+    width: 10%;
+    height: 100%;
+}

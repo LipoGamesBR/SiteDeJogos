@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="./assets/img.png" alt="logo">
+            <h1>Jogos online</h1>
+        </header>
+        <form>
+            <h2>Cadastro</h2>
+                <input type="text" placeholder="Digite seu nome" name="name" id="name" required>
+                <input type="date" name="date" id="date">
+                <input type="email" placeholder="Digite seu email" name="email" id="email" required>
+                <input type="tel" placeholder="Digite seu telefone" name="telefone" id="telefone">
+                <input type="number" placeholder="Digite seu CPF" name="cpf" id="cpf" required>
+                <div class="Select">
+                    <label>Sexo:</label>
+                    <input type="radio" id="rdbMasculino" name="rdbSexo" value="M" >Masculino
+                    <input type="radio" id="rdbFeminino" name="rdbSexo" value="F" >Feminino
+                </div>
+                <div class="Select">
+                    <label>Habilitação A</label><input type="checkbox" id="A" name="moto" >
+                    <label>Habilitação B</label><input type="checkbox" id="B" name="carro">
+                </div>
+            <br>
+            <button type="submit">Cadastrar</button>
+            <br>
+            <a href="./login.html">login</a>
+        </form>
+    </body>
+</html>
